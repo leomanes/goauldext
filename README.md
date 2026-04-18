@@ -6,6 +6,8 @@ Goa'uld doesn't need the VDP, it only need the clock.
 
 
 <img width="1583" height="1078" alt="image" src="https://github.com/user-attachments/assets/46ef58d3-06aa-42e3-b49e-743d15e26327" />
+<br>
+   
 
 This extension allows the **MSX Goa'uld (Tang Nano 20K)** to be installed away from the Z80 socket. The PCB can also be installed in the VDP socket and configured to generate a 3.58MHz clock.
 
@@ -29,9 +31,11 @@ The images below show the PCB in three configurations:
 ## Installation Steps
 
 1.  **Orient the Z80 PCB**
+
     Plug the PCB into the Z80 socket (ensure the ZIF is on top) so that the flex cable runs in your desired direction.
 
 2.  **Identify Pin 1**
+
     Locate Pin 1 of your Z80. Determine which letter on the PCB it is connected to: **A or B**.
 
 3.  **Align the Tang Nano**
