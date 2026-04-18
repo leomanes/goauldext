@@ -1,4 +1,9 @@
-# 40-Pin Extension for MSX Goa'uld / 3.58MHz Clock Gen
+# 40-Pin Extension for MSX Goa'uld + 3.58MHz Clock Gen VDP replacement
+Goa'uld doesn't need the VDP, it only need the clock. 
+
+
+**The same PCB that can be used on the Z80, TANG NANO and VDP sockets**
+
 
 <img width="1583" height="1078" alt="image" src="https://github.com/user-attachments/assets/46ef58d3-06aa-42e3-b49e-743d15e26327" />
 
@@ -42,7 +47,7 @@ The images below show the PCB in three configurations:
         * **B:** Close CENTER + RIGHT.
     * *These jumpers ensure the ZIF mechanical anchor/ground connects correctly to the ground plane.*
 
-## Testing and Power
+## Testing
 
 * **Continuity Check:** Using a multimeter, verify continuity between **MSX Z80 Pin 11 (+5V)** and **Tang Nano Pin 11**. Then check **MSX Z80 Pin 29 (GND)** and **Tang Nano Pin 29**.
 * **Ground Check:** Verify continuity between the ZIF mechanical anchor point and the MSX ground. **If any of these checks fail, STOP and re-verify your steps.**
@@ -51,7 +56,7 @@ The images below show the PCB in three configurations:
 
 If everything is correct, your Goa'uld should boot successfully.
 
-## Using the PCB as a 3.58MHz Clock Generator
+## Using the PCB as a 3.58MHz Clock Generator (optional)
 
 * **Alignment:** VDP Pin 1 must be connected to **A**.
 * **Components:** Install a `10k` resistor and an `ECS-8FMX-035-TR` 3.58MHz oscillator (available at DigiKey/Mouser).
