@@ -43,9 +43,12 @@ The maximum recommended length for the 40-pin flex cable is **20 cm**.
 
 A 30 cm cable has been reported to work, but feedback on this setup is limited.
 
+
+40 pins, 0.5mm pitch with reversed ends.
+
 #### Connectors
 
-This extension only requires ZIF connectors.
+This extension only requires FFC/FPC Connector, 0.50mm Pitch, 40 pins (54104-4031)
 
 ---
 
